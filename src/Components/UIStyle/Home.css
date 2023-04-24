@@ -1,0 +1,133 @@
+.container_backGround{
+    padding-bottom: 140px;
+}
+
+.Headers{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+      padding-top: 150px;
+}
+.star{
+    font-size:100px ;
+    font-weight: bold;
+    color: #ff5f13;
+}
+.engineering{
+    padding-top: 75px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ff5f13;
+}
+.container_backGround{
+background-image: -webkit-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%);
+    /* background-image: -ms-linear-gradient(0deg, rgba(2,8,52,0.74902) 0%, rgba(2,8,52,0.14902) 100%); */
+}
+.header_text{
+    color: white;
+    font-weight: bold;
+
+}
+.text_line{
+    padding-left: -70px;
+    display: flex;
+    justify-content: flex-start;
+}
+.stars{
+        color: #0e132a;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+        font-family: "Teko",sans-serif;
+}
+.productRang p{
+    margin: -1px;
+}
+
+.readmore{
+    border: 1px solid #ff5f13;
+    background-color: #ff5f13;
+    color: #ffffff;
+}
+.readmore:hover{
+    background-color: white;
+    color: #ff5f13;
+}
+.Image_logo{
+    padding: 0%;
+    margin: -0px;
+}
+.Image-logo{
+    width: 630px;
+    display: block;
+    height: 530px;
+    
+}
+.Imagess_postion{
+    position: relative;
+}
+.Since{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1532b0;
+    padding: 55px;  
+    border-radius: 5px;
+}
+
+.since-text{
+    color: white;
+}
+.cards{
+    box-shadow: #0e132a;
+}
+.cardbody{
+    background-color: rgb(244, 242, 242);
+    border-radius: 2px solid black;
+}
+.card:hover .cardbody {
+    background-color: rgb(37, 37, 96);
+    color: white;
+  }
+  .TESTIMONIAL{
+    background-color: #00235b;
+  }
+.margin{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+  .TESTIMONIAL_text{
+    font-size:50px ;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
+.vertical-line {
+    border-left: 3px solid #ff5f13 ;
+    height: 30px; 
+  }
+  .testimonial-area {
+   position: absolute;
+    content: "";
+    background-image: url("http://starengineeringworks.org/assets/img/gallery/arrow_testimonial.png");
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    animation: slide1 1s ease-in-out infinite; 
+}
+.cardbodyss{
+    border: 1px solid #00235b;
+    background-color: rgb(241, 243, 243);
+}
+.cardbodyss:hover{
+    background-color: #00235b;
+    color: white;
+}
+.card-text{
+    padding: 15px;
+}

@@ -1,0 +1,18 @@
+.FooterHeading h3{
+    /* font-family: "Teko",sans-serif; */
+    /* transform: scale(1); */
+    /* position: relative; */
+    /* font-family: "Teko",sans-serif; */
+    font-family: 'Oleo Script', cursive;
+    color: aliceblue;
+}
+.FooterHeading p{
+    padding-top: 20px;
+    color: rgb(178, 178, 178);
+}
+.FooterHeading span{
+    display: block;
+    margin: 20px;
+   color: rgb(107, 106, 106);
+
+}

@@ -1,0 +1,66 @@
+
+.card-content h5{
+color: #fd701e;
+}
+.productheader {
+    /* background: #ffbd2a; */
+    padding: 5px 0;
+}
+.cardss{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+.img_first{
+    display: flex;
+}
+.items .col-6{
+    border: 1px solid #fd6e1e;
+    border-left: none;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+
+}
+.itemtext{
+font-family: "Barlow",sans-serif;
+color: "Barlow",sans-serif;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 15px;
+font-weight: normal;
+margin-left: 0px;
+}
+
+.itemTilte{
+        font-family: "Barlow",sans-serif;
+color: #0b1c39;
+margin-top: 0px;
+font-style: normal;
+font-weight: 500;
+text-transform: normal;
+}
+.btn {
+    background-color: #e25311;
+}
+.buttons::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 101%;
+    height: 101%;
+    background: #e25311;
+    z-index: 1;
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+    border-radius: 0px;
+}
