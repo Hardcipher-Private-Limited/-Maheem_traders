@@ -155,7 +155,7 @@ const Home = () => {
         </div>
       </div>
       {/* TESTIMONIAL start  */}
-      <div className="TESTIMONIAL">
+      <div className="TESTIMONIAL ">
         <div className="container margin">
           <h1 className="TESTIMONIAL_text">TESTIMONIAL</h1>
           <div className="col-lg-12 row pt-5">

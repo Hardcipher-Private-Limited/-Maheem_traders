@@ -23,6 +23,28 @@ const NavBar = () => {
   function handleContact() {
     Navigate("/contact");
   }
+  const [menuOpen, setMenuOpen] = useState(true);
+
+  function handleOpen() {
+    setMenuOpen(menuOpen);
+  }
+  function handleHome() {
+    Navigate("/");
+  }
+
+  function HandleAbout() {
+    window.scrollTo(0, 0);
+    Navigate("./About");
+  }
+  function handleProduct() {
+    Navigate("./product");
+  }
+  function handleFranchise() {
+    Navigate("./franchise");
+  }
+  function handleContect() {
+    Navigate("./contect");
+  }
 
   function handleGasPressureRegulator() {
     Navigate("/GasPressureRegulator");
@@ -84,9 +106,119 @@ const NavBar = () => {
               </div>
             </nav>
           </div>
-          <div className="header-bottom  header-sticky">
-            <nav
-              class="navbar navbar-expand-sm  navbar-light  nav_bar shadow p-3 "
+        </div>
+      </div>
+      <div className="header-bottom  header-sticky">
+        <div>
+          <nav
+            class="navbar navbar-expand-lg navbar-light NavBarColor"
+            style={{ backgroundColor: "#191a33", border: "none" }}
+          >
+            <div class="container InLineCenter">
+              <div class="nav-item fontWight ">
+                <span>
+                  <img
+                    src="http://starengineeringworks.org/pics/s.png"
+                    style={{ width: "15%" }}
+                  />
+                </span>
+                Maheem traders
+              </div>
+              <div className="button_for_toggle">
+                <button
+                  type="button"
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarCollapse"
+                >
+                  <span
+                    class="navbar-toggler-icon"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                  ></span>
+                </button>
+              </div>
+              {menuOpen && (
+                <div
+                  class="collapse navbar-collapse middleNavBar   "
+                  id="navbarCollapse"
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    position: "relative",
+                  }}
+                >
+                  <div
+                    class="navbar-nav"
+                    style={{
+                      display: "flex",
+                      gap: "20px",
+                    }}
+                  >
+                    <div class=" navBarLast" type="submit" onClick={handleHome}>
+                      Home
+                    </div>
+                    <div class="navBarLast" type="submit" onClick={handleAbout}>
+                      About Us
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn"> Our Products</button>
+                      <div class="dropdown-content">
+                        <a href="#" onClick={handleGasPressureRegulator}>
+                          Gas Pressure Regulator
+                        </a>
+                        <a href="#" onClick={handleGaSFiltter}>
+                          Gas Filtter
+                        </a>
+                        <a href="#" onClick={handleShutOffValves}>
+                          Shut-Off Valves
+                        </a>
+                        <a href="#" onClick={handleFlameArrestor}>
+                          Flame Arrestor
+                        </a>
+                        <a href="#" onClick={handleBallValve}>
+                          Ball Valve
+                        </a>
+                        <a href="#" onClick={handleYStrainer}>
+                          YStrainer
+                        </a>
+                        <a href="#" onClick={handleGasPielineInstallation}>
+                          Gas Pieline Installation Service
+                        </a>
+                        <a href="#" onClick={handleCuttingWheel}>
+                          Cutting Wheel
+                        </a>
+                        <a href="#" onClick={handleSolenoidValve}>
+                          Solenoid Valve
+                        </a>
+                        <a href="#" onClick={handleGasSolenoidValve}>
+                          Gas Solenoid Valve
+                        </a>
+                        <a href="#" onClick={handleGasLeakDetector}>
+                          Gas Leak Detector
+                        </a>
+                        <a href="#" onClick={handleFireAlarmControlPanel}>
+                          Fire Alarm Control Panel
+                        </a>
+                        <a href="#" onClick={handleNonReturnValve}>
+                          Non Return Valve
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class=" navBarLast"
+                      type="submit"
+                      onClick={handleContact}
+                    >
+                      Contact Us
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </nav>
+        </div>
+        {/* <nav
+              class="navbar navbar-expand-lg  navbar-light fixed-top  nav_bar shadow p-3 "
               style={{ backgroundColor: "#191970" }}
             >
               <div class="container ">
@@ -175,9 +307,7 @@ const NavBar = () => {
                   </div>
                 </div>
               </div>
-            </nav>
-          </div>
-        </div>
+            </nav> */}
       </div>
     </>
   );
