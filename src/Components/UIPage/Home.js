@@ -51,7 +51,7 @@ const Home = () => {
             <div className="Since">
               <span className="since-text">
                 <h3>2018</h3>
-                <p>SINCE</p>
+                <p>SINCE </p>
               </span>
             </div>
           </div>
