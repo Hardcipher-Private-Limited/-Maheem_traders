@@ -94,14 +94,14 @@ const NavBar = () => {
               <div className="container">
                 <div style={{}} className="first_nav">
                   <a className="">+91- 8010206416</a>
-                  <a className="p-4"> INFO@STARENGINEERINGWORKS.ORG</a>
+                  <a className="p-4"> info@maheemtraders.com</a>
                   <a> Mon - Sat 10:00 - 18:00, Sunday - CLOSED</a>
                 </div>
                 <div className="social_medai">
                   <img src="./Images/twitter.png" alt="." className="pr-4" />
-                  <img src="./Images/twitter.png" alt="." />
-                  <img src="./Images/twitter.png" alt="." />
-                  <img src="./Images/twitter.png" alt="." />
+                  {/* <img src="./Images/twitter.png" alt="." /> */}
+                  {/* <img src="./Images/twitter.png" alt="." /> */}
+                  {/* <img src="./Images/twitter.png" alt="." /> */}
                 </div>
               </div>
             </nav>

@@ -66,7 +66,7 @@ const Contact = () => {
             <p className="text-muted">Mon to Fri 9am to 6pm</p>
           </div>
           <div>
-            <h5>starengineeringworksazadpur@gmail.com</h5>
+            <h5>info@maheemtraders.com</h5>
             <p className="text-muted">Send us your query anytime!</p>
           </div>
         </div>

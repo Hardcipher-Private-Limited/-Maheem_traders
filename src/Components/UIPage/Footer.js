@@ -33,7 +33,7 @@ const Footer = () => {
                 <h3>Contact</h3>
                 <p>D-130 azadpur colony , 110033 Delhi, India</p>
                 <span>Phone: +91- 8010206416</span>
-                <span>mail: INFO@STARENGINEERINGWORKS.ORG</span>
+                <span>info@maheemtraders.com</span>
               </div>
             </div>
           </div>
